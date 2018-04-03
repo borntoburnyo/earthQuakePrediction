@@ -237,38 +237,3 @@ par(mfrow = c(2,1))
 obs.fore <- sarima.for(obs, 5, 1, 1, 1)
 mag.fore <- sarima.for(mag, 5, 1, 1, 1)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
