@@ -1,3 +1,2 @@
 # Earth Quake Prediction
-Practice time series models with earth quake dataset, with visulization in leaflet map.
-
+Briefly, this is a project playing with basic time series models predicting future earthquakes. 
