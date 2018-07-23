@@ -4,7 +4,6 @@ library("maptools")
 library("astsa")
 library("leaflet")
 
-
 # load dataset 
 # dataset download of Kaggle
 
@@ -37,8 +36,6 @@ earthquake$Day <- as.numeric(date.earthquake[seq(3, 3*nrow(earthquake), by = 3)]
 
 # focus on Earthquake Type only 
 earthquake <- subset(earthquake, earthquake$Type == "Earthquake")
-
-
 
 # Visualiztion 
 
@@ -101,7 +98,6 @@ plot.ts(obs, xlab = "Year", ylab = "Total Observations Yearly",
 legend("bottomright", 
 	legend = c("Source: Significant Earthquake 1965-2016 by USGS"), 
 	cex = 0.6)
-
 
 # The differenced data seems without trend now, we'll proceed to model part.   
 
